@@ -1,3 +1,69 @@
-h1 {
-  color:red;
+body {
+    background-color: lightgreen;
+}
+
+@media (max-width: 1500px) {
+    body {
+        background-color: MediumSeaGreen;
+    }
+}
+
+@media (max-width: 1250px) {
+    body {
+        background-color: SeaGreen;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-color: ForestGreen;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        background-color: Green;
+    }
+}
+
+@media (max-width: 500px) {
+    body {
+        background-color: DarkGreen;
+    }
+}
+
+h2 {
+   font-size: 1.5em; /* 30px/16=1.875em */
+}
+
+h3 {
+   font-size: 1.5em; /* 30px/16=1.875em */
+}
+
+h4 {
+   font-size: 1.5em; /* 30px/16=1.875em */
+}
+
+ul li {
+   list-style:none;
+ }
+ input[type="checkbox"]{
+   margin-right: 35px;
+ }
+ .finished-task{
+   text-decoration: line-through;
+   color-#F00
+ }
+
+ #container{
+  width:100%;
+  height:100%;
+}
+
+.centered-panel{
+  width:50%;
+  margin:0 auto;
+  border:5px solid black;
+  padding:40px;
+  background-color:white;
 }
