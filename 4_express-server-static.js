@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-var port = 3000;
+var port = 3002;
 
 /*
   You can tell express where you are storing your static files.

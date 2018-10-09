@@ -1,5 +1,5 @@
 /*
-  HTTP is a core Node.js module.
+    HTTP is a core Node.js module.
 */
 
 // Since this data is unchanging, we are defining it as a const

@@ -10,7 +10,7 @@
 const express = require('express');
 const app = express();
 
-var port = 3000;
+var port = 3001;
 
 /*
   Below we are defining how we handle a specific request for a specific
@@ -31,8 +31,8 @@ app.get('/', function(request, response) {
 //  respond with the callback (second argument)
 
 //  Go to localhost:3000/myURI to get this response
-app.get('/myURI', function(request, response) {
-  response.send('Responding to a GET request!');
+app.get('/supercool', function(request, response) {
+  response.send('Responding to a supercool GET request!');
 });
 
 //  If the client is attempting to submit data to the server via POST
